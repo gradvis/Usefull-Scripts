@@ -1,0 +1,1 @@
+This script automates the process of transferring files from a local directory to a remote SFTP server, including mounting the remote directory, clearing its contents, and copying files based on specific patterns. It reads configuration settings from an external file, ensuring flexibility and easy updates.
