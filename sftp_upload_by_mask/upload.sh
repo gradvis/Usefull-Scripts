@@ -85,9 +85,9 @@ transfer_files() {
 echo "Starting file transfer: $(date)" | tee -a "$LOGFILE"
 
 # Transfer files based on masks
-transfer_files "*_file_mask1_*" "$REMOTE_DIR_ABD"
-transfer_files "*_file_mask2_*" "$REMOTE_DIR_DIC"
-transfer_files "*_file_mask3_*" "$REMOTE_DIR_PAYMENTS"
+transfer_files "*_file_mask1_*" "$REMOTE_DIR_1"
+transfer_files "*_file_mask2_*" "$REMOTE_DIR_2"
+transfer_files "*_file_mask3_*" "$REMOTE_DIR_3"
 
 echo "File transfer completed: $(date)" | tee -a "$LOGFILE"
 
